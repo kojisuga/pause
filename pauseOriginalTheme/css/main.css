@@ -47,14 +47,14 @@
 	position:absolute;
     top: 0;
     width: 100%;
-	height: calc(100vh - 100px);
+	height: calc(100vh - 0px);
 	color:white;
     font-size: 80%;
 }
 .pageWrapper > .contentsWrapper > .slideContents > .contents >.captionArea > .captionWrapper{
 	position: absolute;
-	bottom: 20px;
-	left:20px;
+	bottom: 40px;
+	left:40px;
 	
 
     -webkit-transition: all 1s;
@@ -74,6 +74,45 @@
 	border-top:solid 1px;
 	margin-top:5px;
 	padding-top:5px;
+}
+.pageWrapper > .contentsWrapper > .slideContents > .logo{
+	width:350px;
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pageWrapper > .contentsWrapper > .slideContents > .logo img{
+}
+
+#textContents{
+	height:initial;
+	display:inline-block;
+    padding: 50px 70px;
+}
+#textContents > .contents{
+	padding:30px 0;
+}
+#textContents > .contents > .title{
+	display:inline-block;
+	width:200px;
+	border-right:solid 1px;
+}
+#textContents > .contents > .body{
+	display:inline-block;
+	width:calc(100% - 220px);
+}
+#textContents > .contents > .body > .image{
+	width:600px;
+	display:inline-block;
+}
+#textContents > .contents > .body > .text{
+    width: calc(100% - 620px);
+	display:inline-block;
+}
+#textContents > .contents > .body > .text > .title{
+	width:calc(100% - 220px);
+	display:inline-block;
 }
 /*====================================================================================*/
 /* スマフォ縦表示

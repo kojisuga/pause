@@ -111,12 +111,51 @@ $(window).scroll(function() {
 					</div><!-- captionWrapper -->
 				</div><!-- captionArea -->
 			</div><!-- contents -->
+			<div class="logo">
+				<img src="<?php echo get_template_directory_uri(); ?>/image/common/logo/PAUSE_logo_wh.png">
+			</div>
 		</div><!-- slideContents -->
-
 	</div><!-- contentsWrapper -->
-		<div class="textContents">
-			end contents.
-		</div><!-- textContents -->
+	<div class="contentsWrapper" id="textContents" >
+		<div class="contents">
+			<div class="title">event</div>
+			
+		</div><!-- contents -->
+		<div class="contents">
+			<div class="title">profile</div>
+			<div class="body">
+				<div class="text">
+					<div class="title">
+						吉原友美　｜フラワースタイリスト
+					</div>
+	
+					「日々の暮らしの中にひと休み出来る時間を」
+					縁あって繋がる人達と共に、花を束ねる時間を楽しみながら暮らしに寄り添う花の提案。
+					
+					オンラインショップにて全国へお花の配送、出張花屋、空間装花や全国でワークショップを開催してる。
+					
+					[WORKS]
+					東急ロイヤルクラブメンバーズマガジン「Fino」表紙担当/2021.4ー2023.4
+				</div><!-- text -->
+				<div class="image">
+					<img src="<?php echo get_template_directory_uri(); ?>/image/profile/profile1.jpg">
+				</div>
+			</div>
+		</div><!-- contents -->
+		<div class="contents">
+			<div class="title">news</div>
+			
+		</div><!-- contents -->
+		<div class="contents">
+			<div class="title">blog</div>
+			
+		</div><!-- contents -->
+		<div class="contents">
+			<div class="title">contact</div>
+			
+		</div><!-- contents -->
+	</div><!-- contentsWrapper -->
+
 </div><!-- pageWrapper -->
 </body>
 </html>
