@@ -11,7 +11,7 @@
 
 <script>
 $(window).scroll(function() {
-console.log("--------------");
+
 	// 現在のビューポートの高さを取得 (100vhに相当)
 	const windowHeight = $(window).height();
 	
@@ -42,14 +42,11 @@ console.log("--------------");
 
 	$(nowSlideNumberID).css("height",windowHeight - scrollResidue);
 	$(prevSlideNumberID).css("height",0);
+	$(nextSlideNumberID).css("height","100%");
 
 	$(nowSlideNumberIDtoImg).css("opacity",(1 - ScrollPercentage));
 	$(nextSlideNumberIDtoImg).css("opacity",(ScrollPercentage));
 	$(prevSlideNumberIDtoImg).css("opacity",(0));
-
-	
-console.log("--------------");
-
 });
 </script>
 

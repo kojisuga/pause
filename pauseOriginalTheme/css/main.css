@@ -12,10 +12,9 @@
 .pageWrapper > .contentsWrapper > .slideContents{
 
     position: sticky;
-    top: 50px;
-    width: calc(100vw - 100px);
-    height: calc(100vh - 100px);
-    margin: 50px;
+    top: 0px;
+    width: calc(100vw - 0px);
+    height: calc(100vh - 0px);
 
 }
 .pageWrapper > .contentsWrapper > .slideContents > .contents{
@@ -32,8 +31,8 @@
 	filter: brightness(100%);
 }
 .pageWrapper > .contentsWrapper > .slideContents > .contents img{
-    width: calc(100vw - 100px);
-    height: calc(100vh - 100px);
+    width: calc(100vw - 0px);
+    height: calc(100vh - 0px);
 	object-fit:cover;
 	
 }
