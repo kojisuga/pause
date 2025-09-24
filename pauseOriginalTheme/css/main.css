@@ -1,0 +1,95 @@
+/*====================================================================================*/
+/* Common
+/*====================================================================================*/
+.pageWrapper{
+	width:"100%";
+	height:100vh;
+	position:relative;
+}
+.pageWrapper > .contentsWrapper{
+	height:400vh;
+}
+.pageWrapper > .contentsWrapper > .slideContents{
+
+    position: sticky;
+    top: 50px;
+    width: calc(100vw - 100px);
+    height: calc(100vh - 100px);
+    margin: 50px;
+
+}
+.pageWrapper > .contentsWrapper > .slideContents > .contents{
+	position:absolute;
+	top:0;
+	width:100%;
+	height:100%;
+	overflow:hidden;
+	position:relatived;d
+	background:white;
+}
+
+.defaultBrightness{
+	filter: brightness(100%);
+}
+.pageWrapper > .contentsWrapper > .slideContents > .contents img{
+    width: calc(100vw - 100px);
+    height: calc(100vh - 100px);
+	object-fit:cover;
+	
+}
+.pageWrapper > .contentsWrapper > .slideContents > .contents >.imageBgColor{
+	position:absolute;
+	top:0;
+	width: calc(100vw - 100px);
+    height: calc(100vh - 100px);
+	background:white;
+}
+.pageWrapper > .contentsWrapper > .slideContents > .contents >.captionArea{
+	position:absolute;
+    top: 0;
+    width: 100%;
+	height: calc(100vh - 100px);
+	color:white;
+    font-size: 80%;
+}
+.pageWrapper > .contentsWrapper > .slideContents > .contents >.captionArea > .captionWrapper{
+	position: absolute;
+	bottom: 20px;
+	left:20px;
+	
+
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+	transition: all 1s;
+}
+.pageWrapper > .contentsWrapper > .slideContents > .contents >.captionArea > .captionWrapper > .title{
+
+	font-size:120%;
+}
+.pageWrapper > .contentsWrapper > .slideContents > .contents >.captionArea > .captionWrapper > .title > .EnTxt{
+	font-size:80%;
+}
+.pageWrapper > .contentsWrapper > .slideContents > .contents >.captionArea > .captionWrapper > .text{
+	border-top:solid 1px;
+	margin-top:5px;
+	padding-top:5px;
+}
+/*====================================================================================*/
+/* スマフォ縦表示
+/*====================================================================================*/
+/* ipad pro? */
+@media only screen and (max-width: 1024px) and (orientation:portrait){
+
+
+}
+/*====================================================================================*/
+/* スマフォ　横表示
+/*====================================================================================*/
+@media only screen and (max-width: 1024px) and (orientation:landscape){
+
+
+}
+
+/* EndMobile */
