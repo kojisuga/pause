@@ -76,11 +76,10 @@
 	padding-top:5px;
 }
 .pageWrapper > .contentsWrapper > .slideContents > .logo{
-	width:350px;
+	width: 200px;
 	position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+	top: 50px;
+	left: 50px;
 }
 .pageWrapper > .contentsWrapper > .slideContents > .logo img{
 }
@@ -96,7 +95,8 @@
 #textContents > .contents > .title{
 	display:inline-block;
 	width:200px;
-	border-right:solid 1px;
+	vertical-align: top;
+
 }
 #textContents > .contents > .body{
 	display:inline-block;
@@ -109,10 +109,17 @@
 #textContents > .contents > .body > .text{
     width: calc(100% - 620px);
 	display:inline-block;
+	vertical-align: top;
+    border-left: solid 1px;
+    padding-left: 70px;
 }
 #textContents > .contents > .body > .text > .title{
-	width:calc(100% - 220px);
-	display:inline-block;
+	
+    width: 50%;
+    /* display: inline-block; */
+    vertical-align: top;
+    writing-mode: tb-rl;
+    margin-bottom: 30px;
 }
 /*====================================================================================*/
 /* スマフォ縦表示

@@ -124,6 +124,9 @@ $(window).scroll(function() {
 		<div class="contents">
 			<div class="title">profile</div>
 			<div class="body">
+				<div class="image">
+					<img src="<?php echo get_template_directory_uri(); ?>/image/profile/profile1.jpg">
+				</div>
 				<div class="text">
 					<div class="title">
 						吉原友美　｜フラワースタイリスト
@@ -137,9 +140,6 @@ $(window).scroll(function() {
 					[WORKS]
 					東急ロイヤルクラブメンバーズマガジン「Fino」表紙担当/2021.4ー2023.4
 				</div><!-- text -->
-				<div class="image">
-					<img src="<?php echo get_template_directory_uri(); ?>/image/profile/profile1.jpg">
-				</div>
 			</div>
 		</div><!-- contents -->
 		<div class="contents">
